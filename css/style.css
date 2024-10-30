@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a { 
+	text-decoration:none;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.bsm_term {
+	font-size:13px;color:#1565FF; padding:5px;
+}
+
+
+
+
+/*====================================== BSM ========================================*/
+.bsm_want_to_share_pop_up_open {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+ .bsm_pop_up_input {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  width: 400px;
+}
+.bsm_pop_up_input #bsm_join{
+  display:none;
+}
+
+.bsm_pop_up_input #bsm_share{
+  display:none;
+}
+
+.bsm_header_message {
+	text-align: center;
+    font-size: 22px;
+	color:#3CB591;
+}
+
+.bsm_pop_up_input .bsm_input_item {
+	margin:5px;
+}
+
+ .bsm_pop_up_close {
+  background: none repeat scroll 0 0 rgb(221, 221, 221);
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 20px;
+}
+
+
+.bsm_want_to_share_pop_up_open .bsm_join_success {
+	display:none;
+}
+
+.bsm_want_to_share_pop_up_open .bsm_share_success {
+	display:none;
+}
+
+
+/* ------------------------- */
+
+
+
+.bsm-want-to-share-popup .report-job-login-button {
+	background: none repeat scroll 0 0 #1EB286;
+    color: #FFFEFE;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 7px;
+    font-weight: bolder;
+}
+
+.bsm-want-to-share-popup .bsm-want-to-share-block {
+	display: inline-flex;
+	margin-bottom: 10px;
+}
+.bsm-want-to-share-popup .bsm-want-to-share-block .bsm-want-to-share-title {
+	width:100px;
+	margin-right: 20px;
+	margin-top:5px;
+}
+
+
+
+
+
+
+ .job-report-title {
+  font-weight: bold;
+  padding: 20px 0;
+  color:red;
+  font-size:20px;
+}
+
+
+ .job-report-note {
+  width: 82% !important;
+}
+
+
+ .job-report-submit {
+	text-align:center;
+	font-size: 32px;
+    color: white;
+    padding: 10px;
+    background-color: #CC685E;
+    border-radius: 10px;
+    cursor: pointer;
+	margin: 0 auto;
+    width: 80%;
+}
+ .job-report-submit:hover {
+    background-color: #CA2513;
+}
+
+
+
+
+ .report-job {
+  background-color: #CA2513;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline;
+  margin: 0 10px;
+  padding: 4px 10px;
+  text-decoration: none;
+  font-size:18px;
+}
+
+/*============= Report Form ===================*/
+.bsm_pop_up_header {
+	display:block;
+}
+.bsm_pop_up_header .bsm-want-to-share-icon {
+	font-size: 100px;
+    color: #CA2513;
+    text-align: center;
+}
+
+
+.bsm_pop_up_header .bsm-want-to-share-close{
+	text-align: center;
+}
+.bsm_pop_up_header .bsm-want-to-share-close span{
+	font-size: 32px;
+    color: white;
+    padding: 10px;
+    background-color: #26a65b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bsm_pop_up_header .bsm-want-to-share-close span:hover{
+	background-color: #208C4D;
+}
+
+/*============= Success Report Form ===================*/
+.bsm-want-to-share-success {
+	display:none;
+}
+.bsm-want-to-share-success .bsm-want-to-share-icon {
+	font-size: 100px;
+    color: #26a65b;
+    text-align: center;
+}
+
+
+.bsm-want-to-share-success .bsm-want-to-share-close{
+	text-align: center;
+}
+.bsm-want-to-share-success .bsm-want-to-share-close span{
+	font-size: 32px;
+    color: white;
+    padding: 10px;
+    background-color: #26a65b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bsm-want-to-share-success .bsm-want-to-share-close span:hover{
+	background-color: #208C4D;
+}
+
+
+/* ==================== Login ============================= */
+.bsm-want-to-share-login {
+	display:block;
+}
+.bsm-want-to-share-login .bsm-want-to-share-icon {
+	font-size: 100px;
+    color: #CA2513;
+    text-align: center;
+}
+
+.bsm-want-to-share-login .bsm-want-to-share-login{
+	text-align: center;
+}
+.bsm-want-to-share-login .bsm-want-to-share-login span a{
+	font-size: 32px;
+    color: white;
+    padding: 10px;
+    background-color: #26a65b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bsm-want-to-share-login .bsm-want-to-share-login span a:hover{
+	background-color: #208C4D;
+}
+
+
+
+/* Register Pop Up */
+
+.bsm_register_pop_up_open {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+
+
+
+
+/*====================================== BUTTONS ==========================================*/
+.a a{
+	text-decoration:none;
+	color:#fff !important;
+}
+.bsm_button_medium {
+	font-size: 22px;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+	text-align:center;
+	-webkit-user-select:none;
+}
+
+.bsm_button_small {
+	font-size: 14px;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+	text-align:center;
+	-webkit-user-select:none;
+}
+
+.bsm_button_green {
+    background-color: #26a65b;
+}
+.bsm_button_green:hover {
+	background-color: #208C4D;
+}
+
+.bsm_button_light_violate {
+    background-color: #A066FF;
+}
+.bsm_button_light_violate:hover {
+	background-color: rgb(112, 58, 202);
+}
+
+.bsm_button_sky_blue {
+    background-color: #3993D0;
+}
+.bsm_button_sky_blue:hover {
+	background-color: #2978AD;
+}
+
+.bsm_button_navy_blue {
+    background-color: #5B65DA;
+}
+.bsm_button_navy_blue:hover {
+	background-color: #3D47BB;
+}
+
+.bsm_button_red {
+    background-color: #CC685E;
+}
+.bsm_button_red:hover {
+	background-color: #CA2513;
+}
+
+.bsm_button_facebook {
+    background-color: #45619D;
+}
+.bsm_button_facebook:hover {
+	background-color: #1D459A;
+}
+
+
+

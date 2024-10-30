@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bsm_book_single {}
+
+.bsm_book_single  {
+  margin-bottom: 50px;
+  padding: 10px;
+  border:1px solid #08519B;
+  border-radius:20px;
+}
+
+.bsm_book_single .bsm_book_info .book-thumb img{
+	width:45%;
+	float:left;
+	margin-right:20px;
+}
+
+.bsm_book_single .bsm_book_info .book_title {
+	display: inline-block;
+	font-weight: bold;
+    font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.bsm_book_single .bsm_book_info  .book_title a{
+  color:#3993D0;
+}
+.bsm_book_single .bsm_book_info  .book_title a:hover{
+  color:#08519B;
+}
+
+.bsm_book_single .bsm_book_info .short_content {
+  font-size: 13px;
+  text-align: left;
+}
+
+.bsm_book_single .bsm_book_info .job_type {
+  display: inline-block;
+  font-size: 13px;
+  padding: 2px 10px;
+}
+
+.bsm_book_single .book_info_meta {
+  display: inline-block;
+  margin-bottom:5px;
+  max-width: 45%;
+  text-align: left;
+}
+
+.bsm_book_single .bsm_book_action{
+	border-top:2px solid #08519B;
+	padding-top:10px;
+	text-align:center;
+}
+
+.bsm_book_single .bsm_book_action .inline{
+	margin-right:3px;
+	margin-left:3px;
+}
+
